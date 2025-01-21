@@ -1,0 +1,31 @@
+name: Example CI Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # Checkout code from the repository
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    # Run your build step
+    - name: Run build step
+      run: |
+        echo "This is the build step"
+        # Add your build commands here (e.g., npm install, python setup, etc.)
+    
+    # Custom step with your email address
+    - name: Notify user at 23f1002574@ds.study.iitm.ac.in
+      run: echo "Build completed. Notification to 23f1002574@ds.study.iitm.ac.in."
+      
+    # Another step (optional)
+    - name: Example additional step
+      run: echo "This is an additional step"
