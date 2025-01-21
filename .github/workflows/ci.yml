@@ -38,6 +38,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Custom email step
-        run: echo "Notification sent to 23f1002574@ds.study.iitm.ac.in"
+      - name: 23f1002574@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
 
