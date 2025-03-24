@@ -27,6 +27,7 @@ jobs:
       run: echo "Build completed. Notification to 23f1002574@ds.study.iitm.ac.in"
       
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: 23f1002574@ds.study.iitm.ac.in
         run: echo "Hello, world!"
