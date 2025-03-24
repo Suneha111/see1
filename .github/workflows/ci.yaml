@@ -24,7 +24,7 @@ jobs:
     
     # Custom step with your email address
     - name: Notify user at 23f1002574@ds.study.iitm.ac.in
-      run: echo "Build complete. Notification to 23f1002574@ds.study.iitm.ac.in"
+      run: echo "Build. Notification to 23f1002574@ds.study.iitm.ac.in"
       
   test:
     runs-on: ubuntu-latest
