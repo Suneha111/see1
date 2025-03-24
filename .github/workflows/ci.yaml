@@ -23,12 +23,12 @@ jobs:
         # Add your build commands here (e.g., npm install, python setup, etc.)
     
     # Custom step with your email address
-    - name: Notify user at 23f1002574@ds.study.iitm.ac.in
-      run: echo "Build. Notification to 23f1002574@ds.study.iitm.ac.in"
+    - name: Notify user at suneha2003datta@gmail.com
+      run: echo "Build. Notification to suneha2003datta@gmail.com"
       
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: 23f1002574@ds.study.iitm.ac.in
+      - name: suneha2003datta@gmail.com
         run: echo "Hello, world!"
     
